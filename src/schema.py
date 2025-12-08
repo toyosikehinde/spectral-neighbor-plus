@@ -12,10 +12,10 @@ from typing import List, Dict
 # Core column names
 # -------------------------------------------------------------------
 
-ID_COL: str = "track_id"          # simple integer id you add in notebooks
+ID_COL: str = "track_id"          
 LYRICS_COL: str = "text"          # full lyrics field
 
-# Label columns (for metrics like purity@K)
+# Label columns (for purity@K metrics)
 GENRE_COL: str = "Genre"
 EMOTION_COL: str = "emotion"
 
@@ -64,7 +64,7 @@ CANONICAL_RENAMES: Dict[str, str] = {
     "Loudness (db)": "loudness_db",
 }
 
-# Convenience: all columns you expect to keep in the cleaned subset
+# Convenience: all columns expected to keep in the cleaned subset
 ALL_USED_COLS: List[str] = [
     ID_COL,
     LYRICS_COL,
