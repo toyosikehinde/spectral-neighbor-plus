@@ -52,13 +52,18 @@ The hybrid space demonstrated the most balanced profile. With \(\alpha = 0.4\) h
 
 These findings support the conclusion that multimodal similarity captures a richer and more human aligned representation of musical relationships.
 
-## 7 Qualitative Observations
+## 7 Impact of Lyrical Features on Recommendation Performance
+
+Introducing lyrical semantic features changed the underlying structure of the recommendation space in ways that cannot be achieved through audio descriptors alone. Lyrics introduced information about narrative intent emotional viewpoint and thematic relationships which expanded the model’s capacity to identify forms of similarity that are independent of production choices or stylistic categories. These features allowed the system to recognize songs that share expressive or conceptual meaning even when their sonic profiles diverge. This shift created a richer representation of musical relatedness and revealed that meaningful similarity is not limited to shared rhythmic or timbral traits. When combined with audio signals the lyrical features provided a second axis of interpretation allowing the hybrid model to balance expressive coherence with stylistic expectation. This interaction produced a recommendation space that reflects more genuinely human patterns of musical understanding by representing both what a track communicates and how it sounds.
+
+
+## 8 Qualitative Observations
 
 Manual inspection of several representative seed tracks provided further validation of the quantitative trends. Lyrics space neighbors exhibited strong emotional and thematic alignment but sometimes crossed genre boundaries in ways that would not align with listener expectations for playlisting. Audio space neighbors exhibited strong genre coherence but sometimes failed to respect narrative or expressive features encoded in the lyrics.
 
 Hybrid space neighbors generally exhibited both thematic and sonic coherence. Tracks tended to share emotional tone production style rhythmic character and overall expressive quality. In cases where lyrics and audio characteristics diverged the hybrid system tended to favor candidates offering the most balanced combination of both modalities.
 
-## 8 Conclusion
+## 9 Conclusion
 
 The contextual hybrid model presents a meaningful advancement over unimodal lyric or audio similarity systems. It demonstrates improved robustness interpretability and alignment with musical perception by integrating complementary information channels. Lyrics alone reveal narrative and emotional relationships while audio features capture stylistic rhythmic and energetic structure. The hybrid model unifies these representational strengths producing similarity judgments that better approximate how listeners perceive relationships between pieces of music.
 
